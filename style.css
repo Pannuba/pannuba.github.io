@@ -1,0 +1,46 @@
+/*html {
+	height: 100%;
+}*/
+
+@media only screen and (max-width: 1700px) {
+	body {
+		margin: 5vh 15vw;
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+	body {
+		margin: 5vh 25vw;
+	}
+}
+
+body {
+	line-height: 0.6cm;
+}
+
+
+/* grow shrink basis */
+
+#title {
+	margin-top: 64px;
+	margin-bottom: 64px;
+}
+
+#title h1 {
+	text-align: center;
+}
+
+#menu {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: space-around;
+	gap: 10vw;	
+	margin-bottom: 80px;
+}
+
+.menu-item {
+	display: inline-block;
+	text-align: right;
+	margin: 0;
+}
+
