@@ -1,6 +1,4 @@
-/*html {
-	height: 100%;
-}*/
+/* Responsive stuff */
 
 @media only screen and (max-width: 1700px) {
 	body {
@@ -14,16 +12,28 @@
 	}
 }
 
+/* Global */
+
 body {
 	line-height: 0.6cm;
+	background-color: rgb(250, 250, 250);
+	color: rgb(50, 50, 50);
+}
+
+h1, h2 {
+	color: rgb(30, 30, 30);
+}
+
+a {
+	text-decoration: none;
 }
 
 
 /* grow shrink basis */
 
 #title {
-	margin-top: 64px;
-	margin-bottom: 64px;
+	margin-top: 32px;
+	margin-bottom: 48px;
 }
 
 #title h1 {
@@ -34,7 +44,7 @@ body {
 	display: flex;
 	flex: 1 1 auto;
 	justify-content: space-around;
-	gap: 10vw;	
+	gap: 6vw;	
 	margin-bottom: 80px;
 }
 
