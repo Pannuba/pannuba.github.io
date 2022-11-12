@@ -1,12 +1,18 @@
 /* Responsive stuff */
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 800px) {
+	body {
+		margin: 5vh 8vw;
+	}
+}
+
+@media only screen and (min-width: 800px) {
 	body {
 		margin: 5vh 15vw;
 	}
 }
 
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 1500px) {
 	body {
 		margin: 5vh 25vw;
 	}
@@ -26,10 +32,10 @@ h1, h2 {
 
 a {
 	text-decoration: none;
+	color: #0000ee;
 }
 
-
-/* grow shrink basis */
+/* Title and links */
 
 #title {
 	margin-top: 32px;
@@ -43,8 +49,7 @@ a {
 #menu {
 	display: flex;
 	flex: 1 1 auto;
-	justify-content: space-around;
-	gap: 6vw;	
+	justify-content: space-evenly;	
 	margin-bottom: 80px;
 }
 
@@ -52,5 +57,10 @@ a {
 	display: inline-block;
 	text-align: right;
 	margin: 0;
+}
+
+.menu-selected {
+	color: #e90000;
+	font-weight: bold;
 }
 
