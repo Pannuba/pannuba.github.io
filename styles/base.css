@@ -39,7 +39,7 @@ a {
 
 #title {
 	margin-top: 32px;
-	margin-bottom: 48px;
+	margin-bottom: 4vh;
 }
 
 #title h1 {
@@ -50,7 +50,7 @@ a {
 	display: flex;
 	flex: 1 1 auto;
 	justify-content: space-evenly;	
-	margin-bottom: 80px;
+	margin-bottom: 6vh;
 }
 
 .menu-item {
