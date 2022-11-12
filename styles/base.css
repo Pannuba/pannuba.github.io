@@ -64,3 +64,9 @@ a {
 	font-weight: bold;
 }
 
+/* Other */
+
+#content h2 {
+	margin-bottom: 4vh;
+}
+
