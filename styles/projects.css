@@ -1,6 +1,16 @@
-.project-pic {
-	width: 30%;
-	max-width: 220px;
-	margin: 0 0 2vw 2vw;
-	float: right;
+@media only screen and (max-width: 1000px) {
+	.project-pic {
+		width: 70%;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.project-pic {
+		width: 40%;
+		max-width: 400px;
+		margin: 0 0 2vw 2vw;
+		float: right;
+	}
 }
