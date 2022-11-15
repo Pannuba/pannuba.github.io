@@ -14,3 +14,7 @@
 		float: right;
 	}
 }
+
+.project-area {
+	overflow: hidden;
+}
