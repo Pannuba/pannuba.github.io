@@ -13,6 +13,13 @@
 		margin: 0 0 2vw 2vw;
 		float: right;
 	}
+
+	/*.left-side {
+		float: left;
+		margin: 60px 2vw 2vw 0;
+	} add left-side to the pic's classes, and change pic top margin to 60px */
+	
+	
 }
 
 .project-area {
