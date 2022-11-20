@@ -27,3 +27,15 @@ th {
 	vertical-align: top;
 	padding-right: 1.5vw;
 }
+
+.lang-name, .lang-emoji {
+	margin: 0;
+}
+
+.lang-name {
+	float: left;
+}
+
+.lang-emoji {
+	float: right;
+}
