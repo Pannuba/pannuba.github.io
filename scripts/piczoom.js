@@ -1,18 +1,16 @@
-oldWidth = document.getElementsByTagName('img')[0].style.width;
-oldMaxWidth = document.getElementsByTagName('img')[0].style.maxWidth;
-    
 function zoom(element)
 {
-	if (element.style.maxWidth != "100%")
+	if (!element.zoomed)
 	{
+		oldWidth = element.width;
+		element.zoomed = true;
 		element.style.width = "100%";
 		element.style.maxWidth = "100%";
 	}
 
 	else
 	{
-		element.style.width = oldWidth;
-		element.style.maxWidth = oldMaxWidth;
+		element.zoomed = false;
+		element.style.width = oldWidth + 'px';
 	}
-
 }
