@@ -19,9 +19,21 @@
 		margin: 60px 2vw 2vw 0;
 	} add left-side to the pic's classes, and change pic top margin to 60px */
 	
-	
 }
 
 .project-area {
 	overflow: hidden;
+}
+
+#go-up {
+	display: none;	/* WIP, need better icon */
+	position: fixed;
+	width: min(8vw, 64px);
+	height: 10vw;
+	right: 5vw;
+	bottom: 5vh;
+}
+
+#go-up:hover {
+	cursor: pointer;
 }

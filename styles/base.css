@@ -45,6 +45,10 @@
 
 /* Global */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Roboto-regular', sans-serif;
 	line-height: 0.6cm;
