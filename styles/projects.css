@@ -25,13 +25,13 @@
 	overflow: hidden;
 }
 
-#go-up {
-	display: none;	/* WIP, need better icon */
+#go-up {	/* Hide when on desktop? */
 	position: fixed;
-	width: min(8vw, 64px);
+	width: min(10vw, 64px);
 	height: 10vw;
-	right: 5vw;
-	bottom: 5vh;
+	right: max(5vw, calc(var(--body-margin) - 6vw));
+	bottom: 10vh;
+	opacity: 0.8;
 }
 
 #go-up:hover {
