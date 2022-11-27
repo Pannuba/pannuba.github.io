@@ -27,10 +27,10 @@
 
 #go-up {	/* Hide when on desktop? */
 	position: fixed;
-	width: min(10vw, 64px);
+	width: max(5vw, 64px);
 	margin-bottom: 5vw;
 	right: max(5vw, calc(var(--body-margin) - 6vw));
-	bottom: 10vh;
+	bottom: min(128px, 20vh);
 	opacity: 0;
 	transition: opacity 0.2s;
 }
