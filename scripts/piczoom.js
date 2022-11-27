@@ -1,16 +1,25 @@
-function zoom(element)
+function sleep(ms)
 {
-	if (!element.zoomed)
+	return new Promise(res => setTimeout(res, ms));
+}
+
+async function zoom(element)
+{
+	if (element.zoomed != 'Y' && element.zoomed != 'W8')
 	{
 		oldWidth = element.width;
-		element.zoomed = true;
-		element.style.width = "100%";
-		element.style.maxWidth = "100%";
+		element.style.width = '100%';
+		element.style.maxWidth = '100%';
+		element.zoomed = 'W8';
+		await sleep(300);
+		element.zoomed = 'Y';
 	}
 
-	else
+	else if (element.zoomed != 'W8')
 	{
-		element.zoomed = false;
 		element.style.width = oldWidth + 'px';
+		element.zoomed = 'W8';
+		await sleep(300);
+		element.zoomed = 'N';
 	}
 }
