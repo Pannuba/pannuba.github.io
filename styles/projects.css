@@ -28,10 +28,11 @@
 #go-up {	/* Hide when on desktop? */
 	position: fixed;
 	width: min(10vw, 64px);
-	height: 10vw;
+	margin-bottom: 5vw;
 	right: max(5vw, calc(var(--body-margin) - 6vw));
 	bottom: 10vh;
-	opacity: 0.8;
+	opacity: 0;
+	transition: opacity 0.2s;
 }
 
 #go-up:hover {

@@ -52,4 +52,17 @@
 		<a href="#"><img id="go-up" src="media/up.svg"/></a>
 	</div>
 	<script type="text/javascript" src="scripts/piczoom.js"></script>
+	<script>
+		button = document.getElementById("go-up");
+
+		var showUpButton = function() {
+
+		if (window.scrollY >= 800)
+			button.style.opacity = 0.8;
+		else 
+			button.style.opacity = 0;
+		};
+
+		window.addEventListener("scroll", showUpButton);
+	</script>
 </body>
