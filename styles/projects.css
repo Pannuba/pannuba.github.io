@@ -33,9 +33,9 @@
 
 #go-up {	/* Hide when on desktop? */
 	position: fixed;
-	width: max(5vw, 64px);
+	width: max(5vmin, 64px);
 	margin-bottom: 5vw;
-	right: max(5vw, calc(var(--body-margin) - 6vw));
+	right: max(12vw, calc(var(--body-margin) - 6vw));
 	bottom: min(128px, 20vh);
 	opacity: 0;
 	transition: opacity 0.2s;
