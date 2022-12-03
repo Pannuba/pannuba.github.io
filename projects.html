@@ -23,33 +23,33 @@
 		<div id="content">
 			<h2>Projects 💻</h2>
 			<div class="project-area">
-				<h3>Masters of Renaissance 🎭 - <a href="https://github.com/Pannuba/ing-sw-2021-Occhipinti-Falconieri">GitHub</a> <img src="media/github.svg" height="16" width="16"/></h3>
+				<h3>Masters of Renaissance 🎭 - <a href="https://github.com/Pannuba/ing-sw-2021-Occhipinti-Falconieri">GitHub</a> <img src="media/icons/github.svg" class="github-icon"/></h3>
 				<img class="project-pic" src="media/masters.webp" onclick="zoom(this)">
-				<p>Language: Java ♨️</p>
+				<p>Language: Java <img src="media/icons/java.svg" class="icon" style="margin: -2px 0 0 6px;" width="16"/></p>
 				<p>This is a board game turned into software for a university project. It's a distributed client/server MVC application with a GUI made in JavaFX. The project also uses JUnit for automated unit testing.</p>
 				<p>The program fully implements the <a href="https://raw.githubusercontent.com/Pannuba/ing-sw-2021-Occhipinti-Falconieri/master/rulebook_EN.pdf">original game's rules</a>, which are nothing short of simple. Some additional features worth noting are the ability to "backup" a match (should it be interrupted by connection or server issues) by saving a .xml file which is restored when the server restarts and the same players reconnect. Another feature is the ability to play a local match against a CPU, following the ruleset's "Solo mode" section.</p>
 				<p>The game can also be played with a CLI mode, although due to the nature of the game I don't recommend it.</p>
 			</div><br>
 			<div class="project-area">
-				<h3>GraphRanker 🔄 - <a href="https://github.com/Pannuba/progetto-api-2021">GitHub</a> <img src="media/github.svg" height="16" width="16"/></h3>
-				<p>Language: C ©️</p>
+				<h3>GraphRanker 🔄 - <a href="https://github.com/Pannuba/progetto-api-2021">GitHub</a> <img src="media/icons/github.svg" class="github-icon"/></h3>
+				<p>Language: <img src="media/icons/c.svg" style="position: absolute; margin: 3px 0 0 6px;" width="16"/></p>
 				<p>My uni's algorithms and data structures project. Given a list of weighted graphs via input, it finds the n graphs with the lowest sum of the shortest paths between node 0 and all other nodes.</p>
 				<p>In order to get the highest grade, the execution had to stay within certain time and memory constraints. Because of this, I used Valgrind (specifically Callgrind and Massif) to monitor the program's function calls and memory usage during its execution, which allowed me to optimize the program by finding where and why it was underperforming (either allocating too much memory or using too many CPU instructions).</p>
 			</div><br>
 			<div class="project-area">
-				<h3>Logical Networks Project 🌐 - <a href="https://github.com/Pannuba/progetto-reti-logiche-2021">GitHub</a> <img src="media/github.svg" height="16" width="16"/></h3>
+				<h3>Logical Networks Project 🌐 - <a href="https://github.com/Pannuba/progetto-reti-logiche-2021">GitHub</a> <img src="media/icons/github.svg" class="github-icon"/></h3>
 				<p>Language: VHDL</p>
 				<p>Using Xilinx Vivado, I programmed a FPGA in VHDL that applies an algorithm that equalizes the histogram of an image. The input image is read from the RAM and the output is saved by storing each new pixel in a free area of the memory.</p>
 				<p>The module passes every test-bench we were given in both behavioral and post-synthesis simulation to ensure it is able to handle every edge case (for example, the memory is completely filled or empty, the width is zero, there are multiple images, or the reset signal becomes 1 during the execution). </p>
 			</div><br>
 			<div class="project-area">
-				<h3>This website - <a href="https://github.com/Pannuba/pannuba.github.io">GitHub</a> <img src="media/github.svg" height="16" width="16"/></h3>
-				<p>Languages: HTML 📄, CSS ✨, JS 🟨</p>
+				<h3>This website - <a href="https://github.com/Pannuba/pannuba.github.io">GitHub</a> <img src="media/icons/github.svg" class="github-icon"/></h3>
+				<p>Languages: HTML <img src="media/icons/html.svg" width="13"/>, CSS <img src="media/icons/css.svg" width="13"/>, JavaScript <img src="media/icons/js.svg" class="icon" style="margin: 1px 0 0 6px;" width="17"/></p>
 				<p>I made this site with nothing but raw HTML5, CSS3 and some <a href="http://vanilla-js.com">Vanilla.JS</a>. No fancy frameworks, libraries or anything, and I like it that way 😊</p>
 			</div><br>
 			<h3><a href="other.html">Other projects</a> (old, incomplete, just bad)</h3>
 		</div>
-		<a href="#"><img id="go-up" src="media/up.svg"/></a>
+		<a href="#"><img id="go-up" src="media/icons/up.svg"/></a>
 	</div>
 	<script type="text/javascript" src="scripts/piczoom.js"></script>
 	<script>

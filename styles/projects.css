@@ -25,6 +25,16 @@
 	overflow: hidden;
 }
 
+.icon {
+	position: absolute;
+}
+
+.github-icon {
+	position: absolute;
+	width: 18px;
+	margin: 5px 0 0 6px;
+}
+
 #go-up {	/* Hide when on desktop? */
 	position: fixed;
 	width: max(5vw, 64px);
