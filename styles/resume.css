@@ -6,56 +6,46 @@ h3 {
 	margin-top: 32px;
 }
 
+ul {
+	margin-top: 0;
+	padding-left: 16px;
+}
+
 .cv-date {
 	text-align: right;
 	font-style: italic;
 	margin: 0;
 }
 
-#skills-container {
+#other-skills {
 	margin-left: 16px;
 }
 
-#skills-container h4:first-child {
-	margin: 0;
+#other-skills h4:first-child {
+	margin-top: 2px;
 }
 
-#skills-container h4 {
+#other-skills h4 {
 	margin-bottom: 0;
 }
 
-#skills-container p {
+#other-skills p {
 	margin-top: 0;
 }
 
-table {
-	border-spacing: 15px;
-	margin: -15px -15px 0 0;
-}
-
-ul {
-	margin-top: 0;
-	padding-left: 16px;
-}
-
-th {
-	text-align: left;
-	vertical-align: top;
-	padding-right: 1.5vw;
-}
-
-td {
+.lists-container {
+	display: grid;
+	grid-template-columns: min(25%, 160px) auto;
+	grid-template-rows: repeat(auto-fit);
+	row-gap: 8px;
+	margin-left: 15px;
 	word-spacing: 3px;
 }
 
-.lang-name, .lang-emoji {
-	margin: 0;
+.lists-container p:nth-child(odd) {
+	font-weight: bold;
 }
 
-.lang-name {
-	float: left;
-}
-
-.lang-emoji {
-	float: right;
+.lists-container p {
+	margin-top: 0;
 }
