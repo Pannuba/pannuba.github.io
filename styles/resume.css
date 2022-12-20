@@ -6,9 +6,17 @@ h3 {
 	margin-top: 32px;
 }
 
+li {
+	margin-bottom: 16px;
+}
+
 ul {
 	margin-top: 0;
 	padding-left: 16px;
+}
+
+ul ul {
+	line-height: 1.6;
 }
 
 .cv-date {
@@ -39,7 +47,7 @@ ul {
 	grid-template-rows: repeat(auto-fit);
 	row-gap: 8px;
 	margin-left: 15px;
-	word-spacing: 3px;
+	word-spacing: 2px;
 }
 
 .lists-container p:nth-child(odd) {
