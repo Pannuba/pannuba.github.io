@@ -27,8 +27,8 @@
 	}
 
 	.icon {
-		background-color: #efefef;
-		border-radius: 10px;
+		filter: contrast(1.5);
+		filter: brightness(1.2)
 	}
 }
 
@@ -42,7 +42,11 @@
 	margin: 5px 0 0 6px;
 }
 
-#go-up {	/* Hide when on desktop? */
+.icon {
+	vertical-align: sub;
+}
+
+#go-up {
 	position: fixed;
 	width: max(5vmin, 64px);
 	margin-bottom: 5vw;

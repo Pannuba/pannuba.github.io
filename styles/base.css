@@ -48,7 +48,7 @@
 @media (prefers-color-scheme: dark) {
 	/* TODO: ligther font (350), import */
 	body {
-		background-color: #121212;
+		background-color: #181818;
 		color: #dedede;
 	}
 
@@ -64,7 +64,7 @@
 		color: #ff6689;
 	}
 
-	.pic { /* TODO: exclude icons, make separate class */
+	.pic {
 		filter: brightness(.9) contrast(1.1);
 	}
 }
