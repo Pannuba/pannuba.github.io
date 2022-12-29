@@ -3,13 +3,13 @@ function sleep(ms)
 	return new Promise(res => setTimeout(res, ms));
 }
 
-async function zoom(element)
+async function zoom(element, max)
 {
 	if (element.zoomed != 'Y' && element.zoomed != 'W8')
 	{
 		oldWidth = element.width;
-		element.style.width = '100%';
-		element.style.maxWidth = '100%';
+		element.style.width = max + '%';
+		element.style.maxWidth = max + '%';
 		element.zoomed = 'W8';
 		await sleep(300);
 		element.zoomed = 'Y';

@@ -45,7 +45,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-	/* TODO: ligther font (350), import */
 	body {
 		background-color: #121212;
 		color: #dedede;
