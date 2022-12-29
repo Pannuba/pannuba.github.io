@@ -116,8 +116,8 @@ img {
 /* Title and links */
 
 #title {
-	margin-top: 32px;
-	margin-bottom: 4vh;
+	margin-top: 0;
+	margin-bottom: min(4vh, 48px);
 }
 
 #title h1 {
@@ -128,7 +128,7 @@ img {
 	display: flex;
 	flex: 1 1 auto;
 	justify-content: space-evenly;	
-	margin-bottom: 6vh;
+	margin-bottom: max(50px, 4vh);
 }
 
 .menu-item {
@@ -144,5 +144,5 @@ img {
 /* Other */
 
 #content h2 {
-	margin-bottom: 4vh;
+	margin-bottom: max(32px, 4vh);
 }
