@@ -9,7 +9,7 @@
 
 @media only screen and (max-width: 800px) {
 	:root {
-		--body-margin: 6vw;
+		--body-margin: 5vw;
 	}
 }
 
@@ -34,21 +34,20 @@
 @media only screen and (min-width: 1500px) {
 	:root {
 		--body-margin: 25vw;
-		--font-size: 18px;
 	}
 }
 
 @media only screen and (min-width: 2000px) {
 	:root {
 		--body-margin: 30vw;
-		--font-size: 20px;
+		--font-size: 18px;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	/* TODO: ligther font (350), import */
 	body {
-		background-color: #181818;
+		background-color: #121212;
 		color: #dedede;
 	}
 
